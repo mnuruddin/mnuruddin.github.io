@@ -1,0 +1,36 @@
+# Site settings
+title: iOSmith
+description: a Random Smattering of iOS Things
+keywords: "iOS, swift, mobile development, technosmith, iOSmith, tutorial, example, code, blog"
+url:  http://uudshan.github.io
+baseurl:  ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+# Author settings
+author:
+  name     : Mohammad Nuruddin Effendi
+  job      : Technosmith, iOSmith
+  bio      : "A man who creates apps from wrought code by forging the code, using IDE aka Integrated Development Environment."
+  thumb    : /img/author.jpg
+  email    : m.nuruddin@icloud.com
+  github   : https://github.com/uudshan
+  facebook : https://facebook.com/uudshan
+  linkedin : https://linkedin.com/in/uudshan
+
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  quotes:
+    output: true
+    permalink: /quotes/:path/
+
+gems: [jekyll-paginate]
