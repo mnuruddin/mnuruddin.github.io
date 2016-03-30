@@ -2,7 +2,7 @@
 layout: post
 title:  "The Basics (part 1)"
 date:   2016-03-29 14:40:16
-description: Yuk, kenalan dulu sama Swift! Pembahasan mengenai simple values dan control flow
+description: Yuk, kenalan dulu sama Swift!<br/>Pembahasan mengenai simple values dan control flow
 ---
 
 {% highlight swift %}
@@ -101,7 +101,7 @@ let emptyExplicitDictionary = [String : Double]()
 
 <h3>Control Flow</h3>
 <br/>
-Control flow di Swift mirip dengan control flow bahasa pemrograman pada umumnya. *if* dan *switch* untuk conditonal statement dan gunakan *for-in*, *for*, *while*, dan *repeat-while* untuk loops. Mungkin disini yang terdengar asing adalah *repeat-while*, akan tetapi sebetulnya ini sama saja dengan *do-while*
+Control flow di Swift mirip dengan control flow bahasa pemrograman pada umumnya. *if*, *guard*, dan *switch* untuk conditonal statement dan gunakan *for-in*, *for*, *while*, dan *repeat-while* untuk loops. Mungkin disini yang terdengar asing adalah *guard* dan *repeat-while*. *guard* statement akan dibahas di bawah. Sedangkan untuk *repeat-while* ini sama saja dengan *do-while*.
 
 {% highlight swift %}
 
@@ -118,7 +118,7 @@ for planet in planets {
 
 {% endhighlight %}
 
-*for-in* juga bisa digunakan to iterate over items in a dictionary. Dikarenakan dictionary itu merupakan unordered collection, maka element yang muncul dari iterasi akan ditampilkan secara acak.
+Selain bisa digunakan untuk iterate over items in an array, *for-in* juga bisa digunakan to iterate over items in a dictionary. Dikarenakan dictionary itu merupakan unordered collection, maka element yang muncul dari iterasi akan ditampilkan secara acak.
 
 {% highlight swift %}
 
@@ -132,7 +132,7 @@ for (name, occupation) in occupations {
 
 {% endhighlight %}
 
-Dalam sebuah *if* statement, conditional value haruslah boolean expression --artinya code seperti *if planet { ... }* bakalan error. Nah, untuk mengatasi hal ini kita bisa menggunakan *if-let* statement. Value yang bisa ditangkap oleh statement ini adalah optional value, artinya bahwa value ini pasti bisa *nil* yang menyatakan bahwa value is missing. Untuk mengindikasikan bahwa value itu optional maka ditambahkan question mark (?).
+Dalam sebuah *if* statement, conditional value haruslah Boolean expression --artinya code seperti *if planet { ... }* bakalan error. Nah, untuk mengatasi hal ini kita bisa menggunakan *if-let* statement. Value yang bisa ditangkap oleh statement ini adalah optional value, artinya bahwa value ini pasti bisa *nil* yang menyatakan bahwa value is missing. Untuk mengindikasikan bahwa value itu optional maka ditambahkan question mark (?).
 
 {% highlight swift %}
 
@@ -149,8 +149,42 @@ Cara lain untuk mengetahui bahwa value itu optional. Bisa lakukan *print(value)*
 
 ##### Note
 <blockquote>
-	Jadi best practice-nya untuk menggunakan optional value adalah ketika kalian benar2 yakin bahwa variable tersebut akan menghasilkan nil value. Jika variable tersebut ga ada kemungkinan untuk menghasilkan nil value, maka ga perlu lah untuk dijadikan sebagai optional value.
+   Jadi best practice-nya untuk menggunakan optional value adalah ketika kalian benar2 yakin bahwa variable tersebut akan menghasilkan nil value. Jika variable tersebut ga ada kemungkinan untuk menghasilkan nil value, maka ga perlu lah untuk dijadikan sebagai optional value.
 </blockquote>
+
+*guard* statement fungsinya sama seperti *if*, execute statement depending on Boolean value of an expression. Namun tidak seperti *if*, *guard* selalu mempunyai *else* clause --the code inside the else clause is executed if the condition is not true. Jadi bisa dibilang kalau *guard* statement ini kebalikannya *if* statement. Di dalam body sebuah *guard* statement selalu membutuhkan *break* dan *continue*, jika dalam sebuah loops ataupun conditional statement, dan *return* jika terdapat dalam sebuah fungsi.
+
+{% highlight swift %}
+
+let planets = ["Mercury", "Venus", "Earth", "Mars", 
+          "Jupiter", "Saturn", "Uranus", "Neptune"]
+
+for planet in planets {
+   guard planet == "Earth" else {
+      print("There aliens living on \(planet)")
+      continue
+   } 
+
+   print("I live on \(planet)")
+} 
+
+{% endhighlight %} 
+
+*guard* statement juga memiliki *guard-let* statement, cara kerjanya mirip seperti *if-let* statement.
+
+{% highlight swift %}
+
+func greet(name: String?) {
+   var greeting = "Hello!"
+
+   guard let name = name else {
+      return "Hello, \(name)"
+   }  
+
+   return greeting
+}
+
+{% endhighlight %} 
 
 Swift *switch* statement support berbagai macam data type dan comparison operations. Setelah code di dalam *case* tereksekusi, maka program akan otomatis exit dari *switch* statement tanpa perlu ada *break* secara explisit. Kecuali jika tidak ada code yang akan dieksekusi, maka diperlukan *break* secara explisit.
 
