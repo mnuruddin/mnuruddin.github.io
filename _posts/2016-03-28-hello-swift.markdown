@@ -24,7 +24,9 @@ print("Hello, World!")
 Ane mulai dari **The Basics** dulu, sehingga kalian bisa start writing code in Swift.
 
 ##### Note
-> Kalian bisa sekalian membuka playground di Xcode untuk coba secara live dari apa yang ane jabarin disini. Sehingga kalian bisa melakukan improvisasi. Caranya, File > New > Playground (⌥⇧⌘N)<br/><br/>Playground itu sebuah interactive Swift coding environment yang langsung menampilkan result dari code yang kalian bikin.
+<blockquote>
+	Kalian bisa sekalian membuka playground di Xcode untuk coba secara live dari apa yang ane jabarin disini. Sehingga kalian bisa melakukan improvisasi. Caranya, File > New > Playground (⌥⇧⌘N)<br/><br/>Playground itu sebuah interactive Swift coding environment yang langsung menampilkan result dari code yang kalian bikin.
+</blockquote>
 
 <br/>
 
@@ -146,7 +148,9 @@ if let name = optionalName {
 Cara lain untuk mengetahui bahwa value itu optional. Bisa lakukan *print(value)*. Maka di log akan tampil *Optional(value)*. Nah, *if-let* statement digunakan untuk mengambil nilai asli dari value itu sendiri.
 
 ##### Note
-> Jadi best practice-nya untuk menggunakan optional value adalah ketika kalian benar2 yakin bahwa variable tersebut akan menghasilkan nil value. Jika variable tersebut ga ada kemungkinan untuk menghasilkan nil value, maka ga perlu lah untuk dijadikan sebagai optional value.
+<blockquote>
+	Jadi best practice-nya untuk menggunakan optional value adalah ketika kalian benar2 yakin bahwa variable tersebut akan menghasilkan nil value. Jika variable tersebut ga ada kemungkinan untuk menghasilkan nil value, maka ga perlu lah untuk dijadikan sebagai optional value.
+</blockquote>
 
 Swift *switch* statement support berbagai macam data type dan comparison operations. Setelah code di dalam *case* tereksekusi, maka program akan otomatis exit dari *switch* statement tanpa perlu ada *break* secara explisit. Kecuali jika tidak ada code yang akan dieksekusi, maka diperlukan *break* secara explisit.
 
