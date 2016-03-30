@@ -152,7 +152,7 @@ Cara lain untuk mengetahui bahwa value itu optional. Bisa lakukan *print(value)*
    Jadi best practice-nya untuk menggunakan optional value adalah ketika kalian benar2 yakin bahwa variable tersebut akan menghasilkan nil value. Jika variable tersebut ga ada kemungkinan untuk menghasilkan nil value, maka ga perlu lah untuk dijadikan sebagai optional value.
 </blockquote>
 
-*guard* statement fungsinya sama seperti *if*, execute statement depending on Boolean value of an expression. Namun tidak seperti *if*, *guard* selalu mempunyai *else* clause --the code inside the else clause is executed if the condition is not true. Jadi bisa dibilang kalau *guard* statement ini kebalikannya *if* statement. Di dalam body sebuah *guard* statement selalu membutuhkan *break* dan *continue*, jika dalam sebuah loops ataupun conditional statement, dan *return* jika terdapat dalam sebuah fungsi.
+*guard* statement fungsinya sama seperti *if*, execute statement depending on Boolean value of an expression. Namun tidak seperti *if*, *guard* selalu mempunyai *else* clause --the code inside the else clause is executed if the condition is not true. Jadi bisa dibilang kalau *guard* statement ini kebalikan dari *if* statement. Di dalam body *guard* statement, selalu dibutuhkan *break* dan *continue* (dalam sebuah loops ataupun conditional statement), dan *return* (dalam sebuah fungsi).
 
 {% highlight swift %}
 
