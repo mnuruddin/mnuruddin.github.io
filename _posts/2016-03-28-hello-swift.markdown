@@ -23,7 +23,7 @@ print("Hello, World!")
 
 Ane mulai dari **The Basics** dulu, sehingga kalian bisa start writing code in Swift.
 
-##### Note
+<!-- ##### Note
 <blockquote>
 	Kalian bisa sekalian membuka playground di Xcode untuk coba secara live dari apa yang ane jabarin disini. Sehingga kalian bisa melakukan improvisasi. Caranya, File > New > Playground (⌥⇧⌘N)<br/><br/>Playground itu sebuah interactive Swift coding environment yang langsung menampilkan result dari code yang kalian bikin.
 </blockquote>
@@ -207,7 +207,7 @@ do {
 } while m < 100
 m
 
-{% endhighlight %}
+{% endhighlight %} -->
 
 Nah, pembahasan mengenai **The Basics** dari Swift ini memang sengaja ane potong2 menjadi beberapa part. Bukan lain bukan apa, supaya ga terlalu banyak yang dibahas dalam satu waktu dan supaya jadi lebih nyaman aja memahaminya. Ane juga sengaja untuk membahas bener2 dari awal supaya kalian yang (baru) ingin memahami Swift akan lebih mudah untuk paham. For the next part akan dibahas mengenai **Functions and Closures**.
 
