@@ -12,6 +12,11 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+analytics:
+  provider: google
+  google:
+    tracking_id: UA-75857949-1
+
 excerpt_separator: ""
 
 # Pagination
