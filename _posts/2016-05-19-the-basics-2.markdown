@@ -185,6 +185,7 @@ print("zero!")
 
 Gini aja sih cara bikin function di Swift. Gampang kan? Gampanglah 😁.
 Nah, for the next part akan dibahas mengenai **Object and Classes**.
+
 See you on the next part guys..
 
 <br/>
