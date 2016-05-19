@@ -3,6 +3,9 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
 
@@ -10,4 +13,28 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<link rel="shortcut icon" type="image/png" href="{{site.url}}/img/favicon.png">
+
+    <!-- iOS ICON-->
+	<link rel="apple-touch-icon" href="img/touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/touch-icon-ipad-retina.png">
+
+	<!-- iOS SPLASHSCREEN POTRAIT-->
+	<link href="{{site.url}}/img/launch-image-ipadpro.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" rel="apple-touch-startup-image">
+	<link href="{{site.url}}/img/launch-image-ipad.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" rel="apple-touch-startup-image">
+	<link href="{{site.url}}/img/launch-image-iphone6p.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" rel="apple-touch-startup-image">
+	<link href="{{site.url}}/img/launch-image-iphone6.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" rel="apple-touch-startup-image">
+	<link href="{{site.url}}/img/launch-image-iphone5.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" rel="apple-touch-startup-image">
+	<link href="{{site.url}}/img/launch-image-iphone.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" rel="apple-touch-startup-image">
+
+	<!-- iOS SPLASHSCREEN LANDSCAPE-->
+	<link href="{{site.url}}/img/launch-image-ipadpro-landscape.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" rel="apple-touch-startup-image">
+	<link href="{{site.url}}/img/launch-image-ipad-landscape.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" rel="apple-touch-startup-image">
+	<link href="{{site.url}}/img/launch-image-iphone6p-landscape.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" rel="apple-touch-startup-image">
+	<link href="{{site.url}}/img/launch-image-iphone6-landscape.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" rel="apple-touch-startup-image">
+	<link href="{{site.url}}/img/launch-image-iphone5-landscape.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" rel="apple-touch-startup-image">
+	<link href="{{site.url}}/img/launch-image-iphone-landscape.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" rel="apple-touch-startup-image">
 </head>
