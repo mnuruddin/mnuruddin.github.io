@@ -56,19 +56,19 @@ experience:
     company: Tomatech
 projects:
   - name: OY!
-    description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    description: OY! is a FREE Indonesian-based CHAT APP to CONNECT with your friends, family, colleague, businesses, services, organization, and many more. OY! lets you connect to your bank account and do transaction FOR FREE to your OY! Friends! OY! Is the only app that give you the best experience of chatting & transaction all in one app.
     contribution: Social Networking
   - name: OY! for Business
-    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    description: OY! for Business, a simple way to personalize your reach and find out what each consumer needs. OY! enables you to expand your business and to acquire a new consumers!
     contribution: Social Networking
   - name: Female Daily - Beauty Review
-    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    description: Female Daily mobile app enables you to read and write reviews for more than 17,000 makeup and skincare products. You can also find newest beauty products and beauty trends from other beauty enthusiasts.
     contribution: Lifestyle
   - name: HelloMIA
-    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    description: Hadir sebagai Personal Health Assistant yang membantu Anda untuk hidup tetap sehat di tengah rutinitas Anda. Dilengkapi dengan kemudahan akses informasi kesehatan dan gaya hidup sehat hingga konsultasi dengan dokter seputar kesehatan Anda.
     contribution: Health
   - name: Rumah123.com
-    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    description: The number 1 property site in Indonesia who has assisted millions of Indonesians, as well as foreigners, to find their homes and property investments since 2007, with the most complete and up-to-date property database to help your decision on buying a property.
     contribution: Lifestyle
 languages:
   - name: English
