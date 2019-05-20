@@ -16,10 +16,14 @@ layout: default
           {% for item in site.data.resume.contact %}
           <div class="contact-item">
             {% if item.link %}
-            <a href="{{ item.link }}">
+            <a href = "{{ item.link }}">
+            {% elsif item.mail %}
+            <a href = "mailto:{{ item.mail }}">
+            {% elsif item.tel %}
+            <a href = "tel:+{{ item.tel }}">
             {% endif %}
             <i class="fa {{ item.icon }} aria-hidden="true></i> {{ item.text }}
-            {% if item.link %}
+            {% if item.link or item.mail or item.tel %}
             </a>
             {% endif %}
           </div>
@@ -95,10 +99,10 @@ layout: default
           {% for project in site.data.resume.projects %}
           <div class="block">
             <div class="block-title">
-              {{ project.name }}
+              <a href="{{ project.website }}" target="_blank">{{ project.name }}</a>
             </div>
             <div class="block-subtitle">
-              {{ project.contribution }}
+              {{ project.category }}
             </div>
             <div class="block-content">
               {{ project.description }}

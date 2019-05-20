@@ -4,8 +4,13 @@ jobtitle: Engineer x Designer
 contact:
   - icon: fa-envelope
     text: m.nuruddin@icloud.com
+    mail: m.nuruddin@icloud.com
   - icon: fa-phone-square
-    text: +6281381476105
+    text: 6281381476105
+    tel: 6281381476105
+  - icon: fa-linkedin-square
+    text: mnuruddin
+    link: https://www.linkedin.com/in/mnuruddin
 education:
   - university: UIN Maulana Malik Ibrahim
     duration: 2009 - 2013
@@ -56,25 +61,31 @@ experience:
     company: Tomatech
 projects:
   - name: OY!
+    category: Social Networking
+    website: https://oyindonesia.com
     description: OY! is a FREE Indonesian-based CHAT APP to CONNECT with your friends, family, colleague, businesses, services, organization, and many more. OY! lets you connect to your bank account and do transaction FOR FREE to your OY! Friends! OY! Is the only app that give you the best experience of chatting & transaction all in one app.
-    contribution: Social Networking
   - name: OY! for Business
+    category: Social Networking
+    website: https://oyindonesia.com
     description: OY! for Business, a simple way to personalize your reach and find out what each consumer needs. OY! enables you to expand your business and to acquire a new consumers!
-    contribution: Social Networking
   - name: Female Daily - Beauty Review
+    category: Lifestyle
+    website: https://femaledaily.com
     description: Female Daily mobile app enables you to read and write reviews for more than 17,000 makeup and skincare products. You can also find newest beauty products and beauty trends from other beauty enthusiasts.
-    contribution: Lifestyle
   - name: HelloMIA
+    category: Health
+    website: http://www.hellomia.com
     description: Hadir sebagai Personal Health Assistant yang membantu Anda untuk hidup tetap sehat di tengah rutinitas Anda. Dilengkapi dengan kemudahan akses informasi kesehatan dan gaya hidup sehat hingga konsultasi dengan dokter seputar kesehatan Anda.
-    contribution: Health
   - name: Uangku
+    category: Finance
+    website: https://www.uangku.co.id
     description: Mobile wallet with an escrow system to shop safe and simply from online shops in social media. You will enjoy simple shopping experience with our auto confirmation to both of you and the seller, which doesn't require you to send receipt anymore.
-    contribution: Finance
   - name: Rumah123.com
+    category: Lifestyle
+    website: https://www.rumah123.com/en/
     description: The number 1 property site in Indonesia who has assisted millions of Indonesians, as well as foreigners, to find their homes and property investments since 2007, with the most complete and up-to-date property database to help your decision on buying a property.
-    contribution: Lifestyle
 languages:
   - name: English
-    proficiency: Work proficiency
+    proficiency: Work Proficiency
   - name: Bahasa Indonesia
     proficiency: Native

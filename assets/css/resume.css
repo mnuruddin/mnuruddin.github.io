@@ -5,22 +5,22 @@ html {
 body {
   text-align: center;
   width: 100%;
-  font-family: "Noto Sans", "Segoe UI", Roboto, Helvetica, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+  font-family: 'IBM Plex Serif', serif, 'Roboto Mono', monospace, 'Noto Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 1rem;
   margin: 0;
-  color: #555;
-  background-color: #fbfbfb;
+  color: #385878;
+  background-color: #FBFCFD;
 }
 a {
   text-decoration: none;
-  color: #08c;
+  color: #2c88dd;
 }
 a:hover {
   text-decoration: underline;
 }
 .container {
-  max-width: 54rem;
+  max-width: 52rem;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -29,7 +29,7 @@ a:hover {
 header {
   display: flex;
   justify-content: space-between;
-  border-bottom: .1rem solid #bbbbbb;
+  border-bottom: .05rem solid #8c9bb1;
   padding-top: 2.2rem;
   padding-bottom: 2.2rem;
 }
@@ -38,14 +38,14 @@ header {
   padding-bottom: 1rem;
 }
 #fullname {
-  font-size: 2.2rem;
+  font-size: 2.3rem;
 }
 #jobtitle {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-top: .8rem;
 }
 #contact {
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding-top: 1rem;
 }
 .contact-item:nth-child(1) {
@@ -63,13 +63,13 @@ section {
   padding-top: 2.4rem;
   padding-bottom: 2.4rem;
   padding-left: .2rem;
-  border-bottom: .1rem solid #bbbbbb;
+  border-bottom: .05rem solid #8c9bb1;
   hyphens: auto;
 }
 .section-title {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   text-align: left;
-  min-width: 10rem;
+  min-width: 12rem;
 }
 .section-content {
 }
@@ -90,21 +90,21 @@ section {
   margin-bottom: 0;
 }
 .block-title {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-bottom: .4rem;
   font-weight: bold;
 }
 .block-subtitle {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 1rem;
-  color: #939393;
+  color: #738093;
 }
 .block-content {
-  font-size: 1rem;
+  font-size: 1.15rem;
   line-height: 1.5;
 }
 footer {
-  color: #bbbbbb;
+  color: #8c9bb1;
   font-size: 1rem;
   min-height: 3rem;
   line-height: 3rem;
@@ -137,7 +137,7 @@ footer {
   }
   #contact {
     padding-top: 1rem;
-    border-top: .1rem solid #bbbbbb;
+    border-top: .05rem solid #8c9bb1;
   }
   .contact-item {
     padding-top: .2rem;
