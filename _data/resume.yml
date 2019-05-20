@@ -67,6 +67,9 @@ projects:
   - name: HelloMIA
     description: Hadir sebagai Personal Health Assistant yang membantu Anda untuk hidup tetap sehat di tengah rutinitas Anda. Dilengkapi dengan kemudahan akses informasi kesehatan dan gaya hidup sehat hingga konsultasi dengan dokter seputar kesehatan Anda.
     contribution: Health
+  - name: Uangku
+    description: Mobile wallet with an escrow system to shop safe and simply from online shops in social media. You will enjoy simple shopping experience with our auto confirmation to both of you and the seller, which doesn't require you to send receipt anymore.
+    contribution: Finance
   - name: Rumah123.com
     description: The number 1 property site in Indonesia who has assisted millions of Indonesians, as well as foreigners, to find their homes and property investments since 2007, with the most complete and up-to-date property database to help your decision on buying a property.
     contribution: Lifestyle
