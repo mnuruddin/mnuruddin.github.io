@@ -1,5 +1,6 @@
 title: Mohammad Nuruddin Effendi
 baseurl: ""
+theme: "jekyll-theme-minimal-resume"
 exclude:
   - README.md
   - LICENSE

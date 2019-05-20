@@ -1,0 +1,77 @@
+title: Mohammad Nuruddin | Engineer x Designer
+name: Mohammad Nuruddin Effendi
+jobtitle: Engineer x Designer
+contact:
+  - icon: fa-envelope
+    text: m.nuruddin@icloud.com
+  - icon: fa-phone-square
+    text: +6281381476105
+education:
+  - university: UIN Maulana Malik Ibrahim
+    duration: 2009 - 2013
+    location: Malang, Jawa Timur, Indonesia
+    major: Informatics Engineering (Bachelor Degree)
+skills:
+  - title: Mobile Engineer
+    items: Swift, Obj-C, Flutter, Java
+  - title: UI Designer
+    items: Sketch, Zeplin
+experience:
+  - title: Lead iOS Engineer
+    duration: Sep 2017 - Now
+    company: OY! Indonesia.
+    description: "- Conduct research into new technologies, including tools, components, and frameworks.<br/>
+    - Establish development best practices and growth of mobile applications standards.<br/>
+    - Manage and prioritize workload between project and maintenance tasks.<br/>
+    - Provide input to manager on team evolution and growth strategy.<br/>
+    - Train and knowledge share with other development teams."
+  - title: Senior iOS Engineer
+    duration: Aug 2016 - Aug 2017
+    company: Female Daily Network
+  - title: Senior iOS Engineer
+    duration: Apr 2016 - Aug 2016
+    company: Jiggie Technology
+  - title: Mobile Lead Engineer
+    duration: Dec 2015 - Mar 2016
+    company: HelloPay
+  - title: Senior iOS Engineer
+    duration: Apr 2015 - Nov 2015
+    company: Rumah123
+  - title: Co-Founder of small startup
+    duration: Aug 2014 - Mar 2015
+    description: "- Evaluating & Mentoring subordinates team on people development and work development.<br/>
+    - Facilitates communication between internal project team and customer on daily basis.<br/>
+    - Direct and manage project and team from the beginning to end process.<br/>
+    - Manages project and serves as a lead in a cross disciplinary team.<br/>
+    - Create and manage planning for project resources."
+    company: Inagata
+  - title: Mobile Software Staff Engineer
+    duration: Apr 2014 - Jul 2014
+    company: Ice House
+  - title: iOS Engineer
+    duration: Jul 2013 - Apr 2014
+    company: Switchlab
+  - title: Junior iOS Engineer
+    duration: Mar 2013 - Jun 2013
+    company: Tomatech
+projects:
+  - name: OY!
+    description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    contribution: Social Networking
+  - name: OY! for Business
+    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    contribution: Social Networking
+  - name: Female Daily - Beauty Review
+    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    contribution: Lifestyle
+  - name: HelloMIA
+    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    contribution: Health
+  - name: Rumah123.com
+    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    contribution: Lifestyle
+languages:
+  - name: English
+    proficiency: Work proficiency
+  - name: Bahasa Indonesia
+    proficiency: Native
