@@ -1,2 +1,1 @@
-# uudshan.github.io
-uudshan.github.io main site repository
+mnuruddin.github.io main site repository
