@@ -31,6 +31,19 @@ layout: default
         </div>
       </header>
 
+      <section id="about">
+        <div class="section-title">
+          About Me
+        </div>
+        <div class="section-content">
+          <div class="block">
+            <div class="block-content">
+              {{ site.data.resume.about }}
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="education">
         <div class="section-title">
           Education
@@ -93,10 +106,31 @@ layout: default
 
       <section id="projects">
         <div class="section-title">
-          Last<br/>Projects
+          App<br/>Projects
         </div>
         <div class="section-content">
-          {% for project in site.data.resume.projects %}
+          {% for project in site.data.resume.appprojects %}
+          <div class="block">
+            <div class="block-title">
+              <a href="{{ project.website }}" target="_blank">{{ project.name }}</a>
+            </div>
+            <div class="block-subtitle">
+              {{ project.category }}
+            </div>
+            <div class="block-content">
+              {{ project.description }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="section-title">
+          Design<br/>Projects
+        </div>
+        <div class="section-content">
+          {% for project in site.data.resume.uiprojects %}
           <div class="block">
             <div class="block-title">
               <a href="{{ project.website }}" target="_blank">{{ project.name }}</a>

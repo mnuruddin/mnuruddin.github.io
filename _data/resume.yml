@@ -11,6 +11,7 @@ contact:
   - icon: fa-linkedin-square
     text: mnuruddin
     link: https://www.linkedin.com/in/mnuruddin
+about: Sketching, Wireframing, Designing, Prototyping, Coding. From ideation to realization. I manage both ui/ux design and mobile app development, with 5+ years experience as iOS engineer and 1+ years experience as mobile designer. I love working with people believed that good things need passion, time, and attentive.
 education:
   - university: UIN Maulana Malik Ibrahim
     duration: 2009 - 2013
@@ -43,7 +44,7 @@ experience:
     duration: Apr 2015 - Nov 2015
     company: Rumah123
   - title: Co-Founder of small startup
-    duration: Aug 2014 - Mar 2015
+    duration: Aug 2014 - Apr 2015
     description: "- Evaluating & Mentoring subordinates team on people development and work development.<br/>
     - Facilitates communication between internal project team and customer on daily basis.<br/>
     - Direct and manage project and team from the beginning to end process.<br/>
@@ -59,7 +60,7 @@ experience:
   - title: Junior iOS Engineer
     duration: Mar 2013 - Jun 2013
     company: Tomatech
-projects:
+appprojects:
   - name: OY!
     category: Social Networking
     website: https://oyindonesia.com
@@ -84,6 +85,11 @@ projects:
     category: Lifestyle
     website: https://www.rumah123.com/en/
     description: The number 1 property site in Indonesia who has assisted millions of Indonesians, as well as foreigners, to find their homes and property investments since 2007, with the most complete and up-to-date property database to help your decision on buying a property.
+uiprojects:
+  - name: nyariJOB
+    category: Business
+    website: https://nyarijob.com
+    description: nyariJOB adalah aplikasi yang membantu menghubungkan antara pencari kerja dan perusahaan di sektor formal/informal dengan cara yang lebih mudah dan cepat. Kami mencoba untuk melakukan pembaharuan terhadap proses pencarian kerja yang umum digunakan saat ini dengan menggunakan teknologi terkini dan metode yang tepat guna, sehingga dapat membantu perusahaan mendapatkan karyawan dengan cara yang lebih efisien daripada sebelumnya.
 languages:
   - name: English
     proficiency: Work Proficiency

@@ -9,12 +9,12 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 1rem;
   margin: 0;
-  color: #385878;
+  color: #384860;
   background-color: #FBFCFD;
 }
 a {
   text-decoration: none;
-  color: #2c88dd;
+  color: #2C88DD;
 }
 a:hover {
   text-decoration: underline;
@@ -97,7 +97,7 @@ section {
 .block-subtitle {
   font-size: 1.1rem;
   margin-bottom: 1rem;
-  color: #738093;
+  color: #5E78A0;
 }
 .block-content {
   font-size: 1.15rem;
