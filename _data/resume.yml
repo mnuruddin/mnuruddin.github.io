@@ -1,6 +1,8 @@
 title: Mohammad Nuruddin | Engineer x Designer
-name: Mohammad Nuruddin Effendi
-jobtitle: Engineer x Designer
+author:
+    name: Mohammad Nuruddin Effendi
+    jobtitle: Engineer x Designer
+    thumb: /assets/img/author.jpg
 contact:
   - icon: fa-envelope
     text: m.nuruddin@icloud.com
@@ -11,7 +13,7 @@ contact:
   - icon: fa-linkedin-square
     text: mnuruddin
     link: https://www.linkedin.com/in/mnuruddin
-about: Sketching, Wireframing, Designing, Prototyping, Coding. From ideation to realization. I manage both ui/ux design and mobile app development, with 5+ years experience as iOS engineer and 1+ years experience as mobile designer. I love working with people believed that good things need passion, time, and attentive.
+about: Sketching, Wireframing, Designing, Prototyping, Coding. From ideation to realization. I manage both ui/ux design and mobile app development, with 6+ years experience as iOS engineer and 1+ years experience as mobile designer. I love working with people believed that good things need passion, time, and attentive.
 education:
   - university: UIN Maulana Malik Ibrahim
     duration: 2009 - 2013
@@ -19,9 +21,9 @@ education:
     major: Informatics Engineering (Bachelor Degree)
 skills:
   - title: Mobile Engineer
-    items: Swift, Obj-C, Flutter, Java
+    items: iOS, Swift, Obj-C, Java, React Native, Flutter
   - title: UI Designer
-    items: Sketch, Zeplin
+    items: Sketch, Zeplin, Marvel
 experience:
   - title: Lead iOS Engineer
     duration: Sep 2017 - Now
