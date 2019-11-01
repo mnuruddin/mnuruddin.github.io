@@ -69,6 +69,10 @@ appprojects:
     category: Finance
     website: https://oyindonesia.com
     description: OY! provide flexible financial solution that are fast, easy to use and most importantly, secure for everybody.
+  - name: Edupongo
+    category: Education
+    website: https://edupongo.com
+    description: Aplikasi parenting untuk merekatkan hubungan guru, siswa, dan orang tua dalam lingkungan pendidikan. Orang tua dapat memantau aktifitas anak di sekolah dan berperan dalam perkembangan sekolah melalui komunikasi yang interaktif.
   - name: OY! for Business
     category: Social Networking
     website: https://oyindonesia.com
