@@ -25,21 +25,23 @@ skills:
   - title: UI Designer
     items: Sketch, Zeplin, Marvel
 experience:
-  - title: Lead iOS Engineer
+  - title: Mobile Architect
     duration: Sep 2017 - Now
     company: OY! Indonesia
-    description: "- Conduct research into new technologies, including tools, components, and frameworks.<br/>
+    description: "- Create mobile application architecture and technical design patterns.<br/>
     - Establish development best practices and growth of mobile applications standards.<br/>
+    - Conduct research into new technologies, including tools, components, and frameworks.<br/>
     - Manage and prioritize workload between project and maintenance tasks.<br/>
     - Provide input to manager on team evolution and growth strategy.<br/>
     - Train and knowledge share with other development teams."
   - title: Co-Founder
     duration: Aug 2014
     description: "- Evaluating & Mentoring subordinates team on people development and work development.<br/>
+    - Ensuring that the technological resources meet the company's short and long-term needs.<br/>
+    - Creating timelines for the development and deployment of all technological services.<br/>
     - Facilitates communication between internal project team and customer on daily basis.<br/>
     - Direct and manage project and team from the beginning to end process.<br/>
-    - Manages project and serves as a lead in a cross disciplinary team.<br/>
-    - Create and manage planning for project resources."
+    - Build and Lead Teams."
     company: Inagata Technosmith
   - title: Senior iOS Engineer
     duration: Aug 2016 - Aug 2017
