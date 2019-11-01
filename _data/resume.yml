@@ -66,9 +66,9 @@ experience:
     company: Tomatech
 appprojects:
   - name: OY!
-    category: Social Networking
+    category: Finance
     website: https://oyindonesia.com
-    description: OY! is a FREE Indonesian-based CHAT APP to CONNECT with your friends, family, colleague, businesses, services, organization, and many more. OY! lets you connect to your bank account and do transaction FOR FREE to your OY! Friends! OY! Is the only app that give you the best experience of chatting & transaction all in one app.
+    description: OY! provide flexible financial solution that are fast, easy to use and most importantly, secure for everybody.
   - name: OY! for Business
     category: Social Networking
     website: https://oyindonesia.com
@@ -94,6 +94,10 @@ uiprojects:
     category: Business
     website: https://nyarijob.com
     description: nyariJOB adalah aplikasi yang membantu menghubungkan antara pencari kerja dan perusahaan di sektor formal/informal dengan cara yang lebih mudah dan cepat. Kami mencoba untuk melakukan pembaharuan terhadap proses pencarian kerja yang umum digunakan saat ini dengan menggunakan teknologi terkini dan metode yang tepat guna, sehingga dapat membantu perusahaan mendapatkan karyawan dengan cara yang lebih efisien daripada sebelumnya.
+  - name: Mobilaa
+    category: Lifestyle
+    website: https://mobilaa.net
+    description: Mobilaa adalah aplikasi yang membantu Anda untuk melakukan booking service di bengkel resmi maupun non-resmi dengan cara yang lebih mudah, cepat, dan nyaman.
 languages:
   - name: English
     proficiency: Work Proficiency
